@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/style-solution.css">
+
+    <title>Simple Web Solutions | Digital Business</title>
+
+</head>
+<body>
+
+<!-- header -->    
+    <header>
+        <div class="line"></div>
+        <nav class="container header-area">
+
+            <div class="header-img">
+                <img src="../assets/images/sw-logo.jpeg" alt="logo da empresa Simple Web Solutions">
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <a href="../home/index.html"><li >Início</li></a>
+                    <a href="../solutions/index.html"><li class="active">Soluções</li></a>
+                    <a href="../scontacts/index.html"><li>Contatos</li></a>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="../assets/images/barra-de-menu.png" alt="" class="icon"></button>
+            </div>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="../home/index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="../solutions/index.html" class="nav-link active">Soluções</a></li>
+                    <li class="nav-item"><a href="../scontacts/index.html" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+<!-- section slide soluçoes -->
+    <section id="inicio" class="containerproje blue-section first">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="contentproje-img">
+                    <img src="../assets/images/sw-logo.jpeg" alt="logo da empresa" >
+                </div>
+                <div class="contentproje">
+                    <h1>Soluções Personalizadas para negócios de todas as proporções.</h1>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="contentproje-img">
+                    <img src="../assets/images/img-bussiness-solutions-1.jpg" alt="imagem exemplo para pequenas empresas." >
+                </div>
+                <div class="contentproje">
+                    <h3>Pequenas empresas</h3>
+                    <p>A nossa empresa oferece soluções completas para pequenos negócios. Compreendemos as necessidades específicas dessas empresas e desenvolvemos estratégias personalizadas para impulsionar o seu crescimento. Oferecemos serviços de consultoria em gestão, marketing digital, desenvolvimento de websites e aplicativos, além de soluções de TI e suporte técnico </p>
+                    <a href="#servicos" class="btnproj">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="contentproje-img">
+                    <img src="../assets/images/img-bussiness-solutions-2.jpg" alt="imagem exemplo para pequenas empresas." >
+                </div>
+                <div class="contentproje">
+                    <h3>Pequenas Industrias</h3>
+                    <p>A indústria tem um papel fundamental na economia do país, e as pequenas indústrias. Para garantir a eficiência e o crescimento dessas empresas, é necessário investir em soluções específicas para suas necessidades. Existem diversas soluções disponíveis, desde tecnologias de automação até sistemas de gestão especializados.</p>
+                    <a href="#servicos" class="btnproj">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="contentproje-img">
+                    <img src="../assets/images/img-bussiness-solutions-3.jpg" alt="imagem exemplo para pequenas empresas." >
+                </div>
+                <div class="contentproje">
+                    <h3>Prestadores de Serviços</h3>
+                    <p>Nos dias de hoje, os prestadores de serviços estão cada vez mais em busca de soluções online para atender às demandas do mercado. Com a facilidade de acesso à internet e a popularização dos smartphones, é fundamental que os profissionais da área encontrem maneiras de se destacar e atender às necessidades dos clientes de forma prática e eficiente.</p>
+                    <a href="#servicos" class="btnproj">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="contentproje-img">
+                    <img src="../assets/images/img-bussiness-solutions-4.jpg" alt="imagem exemplo para pequenas empresas." >
+                </div>
+                <div class="contentproje">
+                    <h3>Agência de Marketing</h3>
+                    <p>Oferecemos uma variedade de soluções de agência de marketing projetadas especificamente para pequenos negócios. Nossa equipe especializada está pronta para ajudar a impulsionar o sucesso do seu negócio, criando estratégias de marketing eficazes e personalizadas. Desde a criação de campanhas publicitárias até a gestão de mídias sociais, estamos aqui para garantir que sua marca se destaque no mercado.</p>
+                    <a href="#servicos" class="btnproj">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> > </div>
+    </section>
+
+    
+
+    <section class="blue-section-service">
+        <h2>Soluções</h2>
+        <div class="blue-section-services">
+            <div class="blue-section-services--box">
+                <div class="blue-section-services--box---img">
+                    <img src="../assets/images/simple-sites.png" alt=" imagem sobre sites">
+                </div>
+                <div class="blue-section-services--box---desc">
+                <h3>Simple Sites</h3>
+                <p>Descrição linda e maravilhosa sobre criação de sites. bla bla bla bla bla bla bla bla bla bla bla bal balb albla bla balb al bal bla bla bla bla bla lba lba ab l abl bal bal.</p>
+                </div>
+                <a href="../scontacts/index.html"><div class="blue-section-services--box---btn">
+                    Saiba mais
+                </div></a>
+            </div>
+            <div class="blue-section-services--box">
+                <div class="blue-section-services--box---img">
+                    <img src="../assets/images/simple-solutions.png" alt=" imagem sobre soluções de TI">
+                </div>
+                <div class="blue-section-services--box---desc">
+                <h3>Simple Solutions</h3>
+                <p>Descrição linda e maravilhosa sobre criação de sites. bla bla bla bla bla bla bla bla bla bla bla bal balb albla bla balb al bal bla bla bla bla bla lba lba ab l abl bal bal.</p>
+                </div>
+                <a href="../scontacts/index.html"><div class="blue-section-services--box---btn">
+                    Saiba mais
+                </div></a>
+            </div>
+            <div class="blue-section-services--box">
+                <div class="blue-section-services--box---img">
+                    <img src="../assets/images/simple-bot.png" alt=" imagem sobre sites">
+                </div>
+                <div class="blue-section-services--box---desc">
+                <h3>Simple Bot</h3>
+                <p>Descrição linda e maravilhosa sobre criação de sites. bla bla bla bla bla bla bla bla bla bla bla bal balb albla bla balb al bal bla bla bla bla bla lba lba ab l abl bal bal.</p>
+                </div>
+                <a href="../scontacts/index.html"><div class="blue-section-services--box---btn">
+                    Saiba mais
+                </div></a>
+            </div>
+            <div class="blue-section-services--box">
+                <div class="blue-section-services--box---img">
+                    <img src="../assets/images/simple-design.png" alt=" imagem sobre soluçoes em web design ">
+                </div>
+                <div class="blue-section-services--box---desc">
+                <h3>Simple Marca</h3>
+                <p>Descrição linda e maravilhosa sobre criação de sites. bla bla bla bla bla bla bla bla bla bla bla bal balb albla bla balb al bal bla bla bla bla bla lba lba ab l abl bal bal.</p>
+                </div>
+                <a href="../scontacts/index.html"><div class="blue-section-services--box---btn">
+                    Saiba mais
+                </div></a>
+            </div>
+            <div class="blue-section-services--box">
+                <div class="blue-section-services--box---img">
+                    <img src="../assets/images/localiza-ai.png" alt=" imagem sobre sites">
+                </div>
+                <div class="blue-section-services--box---desc">
+                <h3>LocalizaAI (web app guia de comércios)</h3>
+                <p>Descrição linda e maravilhosa sobre criação de sites. bla bla bla bla bla bla bla bla bla bla bla bal balb albla bla balb al bal bla bla bla bla bla lba lba ab l abl bal bal.</p>
+                </div>
+                <a href="../scontacts/index.html"><div class="blue-section-services--box---btn">
+                    Saiba mais
+                </div></a>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="white-section second">
+
+        <div class="white-section--img">
+
+        </div>
+        <div class="white-section--desc">
+            <h2>SW Solutions</h2>
+            <p>Criação de Sites e Soluções Digitais para o seu negócio</p>
+        </div>
+
+    </section>
+
+    <section class="teste">
+    
+        <div class="background">
+            <h2>Simple Site, websites para Todos!</h2>
+            <div class="gallery">
+                <div class="card">
+                    <figure>
+                        <img
+                            src="../assets/images/site-exemplo-card.jpg"
+                            alt="Autumn"
+                            title="Autumn"
+                        />
+                    </figure>
+                    <h4>Site para engenheiro</h4>
+                    <p>Pequena descrição site para site de engenheiros.</p>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img
+                            src="../assets/images/site-exemplo-card.jpg"
+                            alt="Autumn"
+                            title="Autumn"
+                        />
+                    </figure>
+                    <h4>Site para advogados</h4>
+                    <p>Pequena descrição site para site de advogados.</p>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img
+                            src="../assets/images/site-exemplo-card.jpg"
+                            alt="Autumn"
+                            title="Autumn"
+                        />
+                    </figure>
+                    <h4>Site para prestadores de serviço</h4>
+                    <p>Pequena descrição site para site de prestadores de serviços.</p>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img
+                            src="../assets/images/site-exemplo-card.jpg"
+                            alt="Autumn"
+                            title="Autumn"
+                        />
+                    </figure>
+                    <h4>Site para Fisioterapeuta</h4>
+                    <p>Pequena descrição site para site de Fisioterapeuta.</p>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="footer-desc">
+            <h3>Simple</h3>
+            <h3>Web</h3>
+            <h3>Solutions</h3>
+        </div>
+        <div class="footer-social">
+
+            <p>SOCIAL</p>
+            <div class="footer-social--links">
+                <a href="" target="_blank"><img src="../assets/images/facebook.png" alt="link para facebook"></a>
+                <a href="" target="_blank"><img src="../assets/images/instagram.png" alt=""></a>
+            </div>
+
+        </div>
+
+    </footer>
+
+<!--JavaScript-->
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
