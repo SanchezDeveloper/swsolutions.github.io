@@ -127,7 +127,7 @@ header .line {
 .blue-section--img {
     width: 50%;
     height: calc(100vh - 110px);
-    background-image: url("../images/img-business-home-1.jpg");
+    background-image: url("images/img-business-home-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,7 +144,7 @@ header .line {
 .white-section--img {
     width: 50%;
     height: 100vh;
-    background-image: url("../images/img-business-home-2.jpg");
+    background-image: url("images/img-business-home-2.jpg");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +170,7 @@ header .line {
 .bg-blue-section {
     width: 100vw;
     height: calc(100vh - 110px);
-    background-image:  linear-gradient(rgba(61, 99, 153, 0.6), rgba(61, 99, 153, 0.6)),url("../images/img-business-home-3.jpg");
+    background-image:  linear-gradient(rgba(61, 99, 153, 0.6), rgba(61, 99, 153, 0.6)),url("images/img-business-home-3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
