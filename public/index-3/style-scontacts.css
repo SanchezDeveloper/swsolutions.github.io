@@ -367,7 +367,8 @@ footer {
         width: 100%;
     }
     .white-section-social--map {
-        width: 100%;
+        width: 100vw;
+        height: 50vh;
     }
     .white-section-social--social {
         width: 100%;
