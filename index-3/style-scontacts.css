@@ -227,13 +227,16 @@ header .line {
     font-size: 17px;
     margin-bottom: 4px;
 }
-.white-section--form input {
+.white-section--form input, .white-section--form select{
     border: 1px solid #000000;
     border-radius: 5px;
     margin-bottom: 15px;
     width: 100%;
     padding: 7px;
     outline: none;
+}
+.white-section--form select, .white-section--form input::placeholder {
+    color: #919191;
 }
 .white-section--form textarea {
     border: 1px solid #000000;
@@ -264,7 +267,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    color: #919191;
 }
 .footer-desc h3 {
     font-size: 30px;
