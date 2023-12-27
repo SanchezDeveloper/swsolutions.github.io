@@ -203,9 +203,11 @@ footer {
     border-top: 1px solid #e6e6e6;
 }
 .footer-desc {
-    max-width: 20vw;
+    max-width: 110px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    color: #919191;
 }
 .footer-desc h3 {
     font-size: 30px;
@@ -234,6 +236,10 @@ footer {
 /*responsive*/
 
 @media screen and (max-width: 1020px) {
+    .blue-section, .white-section, .bg-blue-section {
+     min-height: 800px;
+    }
+   
     .blue-section--desc h1, .white-section--desc h2 {
         font-size: 35px;
     }

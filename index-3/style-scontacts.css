@@ -91,6 +91,7 @@ header .line {
     align-items: center;
     background-color: rgb(61, 99, 153);
     height: calc(100vh - 110px);
+    min-height: 800px;
 }
 .blue-section--desc {
     width: 50%;
@@ -193,6 +194,7 @@ header .line {
     align-items: center;
     width: 50vw;
     height: 100vh;
+    min-height: 550px;
     background-color: #FFFFFF;
 }
 .white-section--form {
@@ -207,6 +209,7 @@ header .line {
     width: 90%;
     max-width: 450px;
     height: 70vh;
+    min-height: 500px;
 }
 .white-section--form h2 {
     font-size: 2.5rem;
@@ -229,7 +232,7 @@ header .line {
     border-radius: 5px;
     margin-bottom: 15px;
     width: 100%;
-    padding: 15px;
+    padding: 7px;
     outline: none;
 }
 .white-section--form textarea {
@@ -254,9 +257,13 @@ footer {
     height: 110px;
     background-color: #FFFFFF;
     border-top: 1px solid #e6e6e6;
+    display: flex;
 }
 .footer-desc {
-    max-width: 20vw;
+    max-width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .footer-desc h3 {

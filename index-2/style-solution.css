@@ -419,10 +419,10 @@ footer {
     border-top: 1px solid #e6e6e6;
 }
 .footer-desc {
-    max-width: 20vw;
+    max-width: 110px;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
 }
 .footer-desc h3 {
     font-size: 30px;
@@ -454,11 +454,17 @@ footer {
 /*responsive*/
 
 @media screen and (max-width: 1020px) {
+    .containerproje {
+        min-height: 800px;
+    }
     .white-section--desc h2 {
         font-size: 35px;
     }
     .white-section--desc p {
         font-size: 20px;
+    }
+    .teste {
+        min-height: 800px;
     }
     .card {
         width: 200px;
@@ -520,6 +526,9 @@ footer {
     .mobile-menu ul li a {
         text-decoration: none;
         color: #000000;
+    }
+    .teste {
+        min-height: 800px;
     }
 }
 @media (min-width: 451px) and (max-width: 769px) {
