@@ -268,15 +268,15 @@ header .line {
 }
 .blue-section-service h2 {
     font-size: 50px;
-    margin: 0px 0px 30px 0px;
+    margin: 30px 0px 0px 0px;
     color: #FFFFFF;
 }
 .blue-section-services {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    align-content: center;
     width: 100vw;
+    max-width: 900px;
 }
 .blue-section-services--box {
     width: 280px;
@@ -306,6 +306,7 @@ header .line {
     text-align: center;
     margin: 15px 10px 0px 10px ;
     text-align: start;
+    font-size: 14px;
 }
 .blue-section-services--box---btn {
     width: 90px;
