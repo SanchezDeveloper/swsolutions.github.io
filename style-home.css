@@ -203,7 +203,7 @@ footer {
     border-top: 1px solid #e6e6e6;
 }
 .footer-desc {
-    max-width: 110px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
